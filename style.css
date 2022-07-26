@@ -33,7 +33,7 @@ html::-webkit-scrollbar-thumb:hover {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #ff9100;
+    background: linear-gradient(270deg, #f96b24, #ff9100);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -72,7 +72,7 @@ html::-webkit-scrollbar-thumb:hover {
     justify-content: space-between;
 }
 .navbar .logo a {
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 35px;
     font-weight: 600;
 }
@@ -81,7 +81,7 @@ html::-webkit-scrollbar-thumb:hover {
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
-    color: #eeeeee;
+    color: #ffffff;
 }
 .navbar .menu li {
     list-style: none;
@@ -89,7 +89,7 @@ html::-webkit-scrollbar-thumb:hover {
 }
 .navbar .menu li a {
     display: block;
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -99,12 +99,12 @@ html::-webkit-scrollbar-thumb:hover {
     color: #ff9100;
 }
 .navbar.sticky .menu li a:hover {
-    color: #eeeeee;
+    color: #ffffff;
 }
 
 /* menu button styling */
 .menu-btn {
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -120,7 +120,7 @@ section {
 .projects,
 .contact,
 footer {
-    background-color: #eeeeee;
+    background-color: #ffffff;
     font-family: "Poppins", sans-serif;
 }
 .about .about-content,
@@ -159,7 +159,7 @@ section .title::after {
     font-size: 20px;
     color: #ff9100;
     padding: 5px;
-    background: #eeeeee;
+    background: #ffffff;
     transform: translateX(-50%);
 }
 
@@ -169,7 +169,7 @@ section .title::after {
     justify-content: center;
     background: #303841;
     height: 100vh;
-    color: #eeeeee;
+    color: #ffffff;
     min-height: 500px;
     font-family: "Ubuntu", sans-serif;
 }
@@ -194,8 +194,8 @@ section .title::after {
 }
 .home .home-content a {
     display: inline-block;
-    background: #ff9100;
-    color: #eeeeee;
+    background: linear-gradient(270deg, #f96b24, #ff9100);
+    color: #ffffff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -236,12 +236,12 @@ section .title::after {
 /* education section styling */
 .education,
 .projects {
-    color: #eeeeee;
+    color: #ffffff;
     background: #303841;
 }
 .education .title::before,
 .projects .title::before {
-    background: #eeeeee;
+    background: #ffffff;
 }
 .education .title::after,
 .projects .title::after {
@@ -272,7 +272,7 @@ section .title::after {
     transition: color 0.3s ease;
 }
 .education .education-content .card:hover i {
-    color: #eeeeee;
+    color: #ffffff;
 }
 .education .education-content .card .text {
     font-size: 25px;
@@ -307,7 +307,7 @@ section .title::after {
     color: #ff9100;
     transform: translateX(-50%);
     background-color: #303841;
-    color: #eeeeee;
+    color: #ffffff;
     white-space: nowrap;
     padding: 10px 15px;
     border-radius: 7px;
@@ -346,7 +346,7 @@ section .title::after {
 .skills .skills-content .right a {
     display: inline-block;
     background: #ff9100;
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -430,8 +430,8 @@ section .title::after {
 
 .projects .carousel .card a {
     display: inline-block;
-    background: #ff9100;
-    color: #eeeeee;
+    background: linear-gradient(270deg, #f96b24, #ff9100);
+    color: #ffffff;
     padding: 8px 24px;
     margin: 0 10px 20px 10px;
     border-radius: 6px;
@@ -552,8 +552,8 @@ section .title::after {
     height: 100%;
     display: block;
     border: 2px solid #ff9100;
-    background: #ff9100;
-    color: #eeeeee;
+    background: linear-gradient(270deg, #f96b24, #ff9100);
+    color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     border-radius: 6px;
@@ -599,7 +599,7 @@ section .title::after {
 footer {
     background: #303841;
     padding: 15px 23px;
-    color: #eeeeee;
+    color: #ffffff;
     text-align: center;
 }
 footer span a {
